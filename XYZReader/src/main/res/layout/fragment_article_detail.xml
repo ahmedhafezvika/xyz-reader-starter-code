@@ -102,7 +102,6 @@
                 android:paddingBottom="@dimen/detail_body_bottom_margin"
                 android:paddingTop="16dp"
                 android:textColor="@color/textColorPrimary"
-                android:textColorLink="@color/colorAccent"
                 android:textSize="@dimen/detail_body_text_size"
                 android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                 android:typeface="sans"/>
@@ -115,11 +114,9 @@
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/add_fab_background"
         android:layout_margin="16dp"
         android:clickable="true"
         android:src="@drawable/ic_share"
-        app:elevation="@dimen/fab_elevation"
         app:layout_anchor="@id/app_bar"
         app:layout_anchorGravity="bottom|end" />
 
